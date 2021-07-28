@@ -45,6 +45,19 @@ while(counter <= 110) {
  console.log(counter)
  counter ++;
 }
+console.log("----------------------------------------------------------------------")
 
 // break and continue statememnts
-  //twommorow
+console.log("Break and Continue")
+
+for(let i=0;i<10;i++){
+    if(i===8)
+    break;
+    console.log(i)
+}
+console.log("----------------------------------------------------------------------")
+for(let i=100;i<110;i++){
+    if(i===108)
+    continue;
+    console.log(i)
+}
